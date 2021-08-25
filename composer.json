@@ -1,0 +1,21 @@
+{
+    "name": "xepozz/injection-plan",
+    "type": "library",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xepozz\\DependencyGraph\\": "src/",
+            "Xepozz\\DependencyGraph\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Derepko",
+            "email": "xepozz@list.ru"
+        }
+    ]
+}
